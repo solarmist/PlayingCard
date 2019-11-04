@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77855937236F7D7200CF8D74 /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77855936236F7D7200CF8D74 /* PlayingCardView.swift */; };
 		77BA4A5A23496FEB0022F28F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BA4A5923496FEB0022F28F /* AppDelegate.swift */; };
 		77BA4A5C23496FEB0022F28F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BA4A5B23496FEB0022F28F /* SceneDelegate.swift */; };
 		77BA4A5E23496FEB0022F28F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BA4A5D23496FEB0022F28F /* ViewController.swift */; };
 		77BA4A6123496FEB0022F28F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77BA4A5F23496FEB0022F28F /* Main.storyboard */; };
 		77BA4A6323496FEC0022F28F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77BA4A6223496FEC0022F28F /* Assets.xcassets */; };
 		77BA4A6623496FEC0022F28F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77BA4A6423496FEC0022F28F /* LaunchScreen.storyboard */; };
+		77BA4A6F234970370022F28F /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BA4A6D234970370022F28F /* PlayingCardDeck.swift */; };
+		77BA4A70234970370022F28F /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BA4A6E234970370022F28F /* PlayingCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E424CB030D0839F49953A84 /* Pods-PlayingCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayingCard.debug.xcconfig"; path = "Target Support Files/Pods-PlayingCard/Pods-PlayingCard.debug.xcconfig"; sourceTree = "<group>"; };
+		77855936236F7D7200CF8D74 /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
 		77BA4A5623496FEB0022F28F /* PlayingCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77BA4A5923496FEB0022F28F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77BA4A5B23496FEB0022F28F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		77BA4A6223496FEC0022F28F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77BA4A6523496FEC0022F28F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77BA4A6723496FEC0022F28F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77BA4A6D234970370022F28F /* PlayingCardDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
+		77BA4A6E234970370022F28F /* PlayingCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
+		B1E35A37B382AD993866794B /* Pods-PlayingCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayingCard.release.xcconfig"; path = "Target Support Files/Pods-PlayingCard/Pods-PlayingCard.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,11 +45,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31A575D79A6966FA4A128BDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		77BA4A4D23496FEB0022F28F = {
 			isa = PBXGroup;
 			children = (
 				77BA4A5823496FEB0022F28F /* PlayingCard */,
 				77BA4A5723496FEB0022F28F /* Products */,
+				9606703A9BC633DDC8BBDAD3 /* Pods */,
+				31A575D79A6966FA4A128BDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +73,35 @@
 		77BA4A5823496FEB0022F28F /* PlayingCard */ = {
 			isa = PBXGroup;
 			children = (
-				77BA4A5923496FEB0022F28F /* AppDelegate.swift */,
-				77BA4A5B23496FEB0022F28F /* SceneDelegate.swift */,
+				77855936236F7D7200CF8D74 /* PlayingCardView.swift */,
 				77BA4A5D23496FEB0022F28F /* ViewController.swift */,
 				77BA4A5F23496FEB0022F28F /* Main.storyboard */,
+				77BA4A6E234970370022F28F /* PlayingCard.swift */,
+				77BA4A6D234970370022F28F /* PlayingCardDeck.swift */,
+				77BA4A5B23496FEB0022F28F /* SceneDelegate.swift */,
 				77BA4A6223496FEC0022F28F /* Assets.xcassets */,
-				77BA4A6423496FEC0022F28F /* LaunchScreen.storyboard */,
 				77BA4A6723496FEC0022F28F /* Info.plist */,
+				77BA4A71234970620022F28F /* Supporting Files */,
 			);
 			path = PlayingCard;
+			sourceTree = "<group>";
+		};
+		77BA4A71234970620022F28F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77BA4A5923496FEB0022F28F /* AppDelegate.swift */,
+				77BA4A6423496FEC0022F28F /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9606703A9BC633DDC8BBDAD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E424CB030D0839F49953A84 /* Pods-PlayingCard.debug.xcconfig */,
+				B1E35A37B382AD993866794B /* Pods-PlayingCard.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +111,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77BA4A6A23496FEC0022F28F /* Build configuration list for PBXNativeTarget "PlayingCard" */;
 			buildPhases = (
+				81064E7837026633DA112911 /* [CP] Check Pods Manifest.lock */,
 				77BA4A5223496FEB0022F28F /* Sources */,
 				77BA4A5323496FEB0022F28F /* Frameworks */,
 				77BA4A5423496FEB0022F28F /* Resources */,
@@ -133,12 +171,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		81064E7837026633DA112911 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayingCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		77BA4A5223496FEB0022F28F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77BA4A70234970370022F28F /* PlayingCard.swift in Sources */,
+				77855937236F7D7200CF8D74 /* PlayingCardView.swift in Sources */,
 				77BA4A5E23496FEB0022F28F /* ViewController.swift in Sources */,
+				77BA4A6F234970370022F28F /* PlayingCardDeck.swift in Sources */,
 				77BA4A5A23496FEB0022F28F /* AppDelegate.swift in Sources */,
 				77BA4A5C23496FEB0022F28F /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +348,7 @@
 		};
 		77BA4A6B23496FEC0022F28F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E424CB030D0839F49953A84 /* Pods-PlayingCard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +367,7 @@
 		};
 		77BA4A6C23496FEC0022F28F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1E35A37B382AD993866794B /* Pods-PlayingCard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
